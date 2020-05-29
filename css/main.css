@@ -1,0 +1,205 @@
+
+/* Rogue Pickings - make static site fluid - starting with mobile first approach; e.g min width 320 px */
+
+html {
+	font-size: 16px;
+	padding: 10px;
+}
+
+
+body {
+	display: flex;
+ 	justify-content: center;
+  	align-items: center;
+  	font-size: 1em;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+
+}
+
+.container{
+  	max-width: 767px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 1.875em; /*30px*/
+}
+h2 {
+    font-size: 1.5em; /*24px*/
+}
+h3 {
+	font-size: 1.125em; /*18px*/
+}
+h4 {
+	font-size: 0.75em; /*12px*/
+}
+
+p {
+	font-size: 0.875em; /*14px*/
+	line-height: 21px;
+    padding: 0 30px;
+}
+
+/*The widths are in a percentage!*/
+header {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 25%;
+	margin: 0 auto;
+	width: 100%;
+	flex-direction: column;
+}
+
+header h1 {
+	text-align: center;
+	margin: 0;
+	border-bottom: 3px solid #77a466;
+	padding: 38px 0 20px;
+	width: 100%;
+}
+
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+	text-align: center;
+	padding: 10px 0;
+	width: 100%;
+
+
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.875em; /*14px*/
+	padding: 0 10px;
+	margin: 2em;
+
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+
+/*The widths are in a percentage!*/
+
+.top-section,
+.bottom-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: 0 auto;
+	clear: both;
+}
+
+.main-image {
+	height: auto;
+	width: auto;
+	float: left;
+}
+
+.main-image img {
+	height: auto;
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+	border-top: 3px solid #77a466;
+}
+
+.main-title {
+	height: auto;
+	float: left;
+}
+
+.main-title h3 {
+	text-align: left;
+	padding: 5px 0;
+	color: #77a466;
+}
+
+.main-title p {
+	padding: 0;
+	font-size: 1em; /*16px*/
+	line-height: 1.6;
+}
+
+.bottom-section {
+	border-top: 1px solid #eee;
+	width: 100%;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	padding: 10px 0;
+	height: auto;
+	width: 100%;
+}
+
+.section-one,
+.section-two {
+	border-bottom: 1px solid #eee;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em; /*16px*/
+	line-height: 1.6;
+	padding: 10px 0;
+}
+
+.address {
+	font-size: 1em; /*16px*/
+	line-height: 1.6;
+	padding: 10px 0;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	display: flex;
+ 	justify-content: center;
+  	align-items: center;
+  	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+	width: 100%;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 0.875em; /*14px*/
+}
+
+
